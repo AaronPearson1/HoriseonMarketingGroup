@@ -6,12 +6,14 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>HoriseonMarketingGroup.com</title>
 </head>
-
+<!-- Below is the body element which contains the header section. -->
 <body>
+<!-- Below is the header element which contains the h1 and nav elements.-->    
     <header class="header">
         <h1>
         Hori<span class="seo">seo</span>n
         </h1>
+<!-- Below is the nav element which contains a horizontal list of active text that when a clicked direct a user to the corresponding article id within the main element. -->        
         <nav>
             <ul>
                 <li>
@@ -26,9 +28,13 @@
             </ul>
         </nav>
     </header>
+<!-- Below is the section element which contains the hero-->    
     <section class="hero"></section>
+<!-- Below is the main section which contains the primary content of the webpage. -->    
     <main class="content">
+<!-- The following articles, there are 3, correspond to each h2 element nested within. While each article has an identical class which references the css file, they all have a different id which is specific to their name in the header. -->
         <article id="search-engine-optimization" class="content-group">
+            <!--Sourced imgaes can be obtained from the image folder nested within the assets folder -->            
             <img src="./assets/images/search-engine-optimization.jpg" alt="search engine optimization booklet with coffee and colored pencils ready to take notes" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
@@ -50,15 +56,17 @@
             </p>
         </article>
     </main>
+<!-- Next to the main section, which host primary content, is secondary content which is defined below by the asisde semantic tag. -->    
     <aside class="benefits">
-        <article class="benefit-group benefit-group h3">
+<!-- Each article within the aside section has a class of benefit group which contains identical propeties.-->        
+        <article class="benefit-group">
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" alt="lead generation with image of gear and funnel to dollar sign" />
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
         </article>
-        <article class="benefit-group benfit-group h3">
+        <article class="benefit-group">
             <h3>Brand Awareness</h3>
             <img src="./assets/images/brand-awareness.png" alt="brand awareness with lightbulb icon emitting signal above torso icon with tie" />
             <p>
@@ -73,9 +81,11 @@
             </p>
         </article>
     </aside>
+<!-- Below is the footer-->
     <footer class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
+<!-- The content in this paragraph has been changed to reflect that of the unique folder and repoistory name, hence Horiseon Marketing Group.-->            
             &copy; 2019 Horiseon Marketing Group.
         </p>
     </footer>
