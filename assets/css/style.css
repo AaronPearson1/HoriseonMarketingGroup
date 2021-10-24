@@ -1,31 +1,31 @@
-
+/* Universal Selector*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* Set background color to variation of below color. */
 body {
     background-color: #d9dcd6;
 }
-
+/* Style header white with a lightblue background provide space of 20 pixels between the element and border as well as the following font property. */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* The h1 element within the header will contain the following properties as well as take on the characteristics of the header element. */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* The seo within Horiseon will be set to a different color than the remaining letters in the header h1 element. Outside of this all properties will be identical to that of header h1.  */
 .header h1 .seo {
     color: #d9dcd6;
     font-weight: normal;
 }
-
+/* Style the nav section to include the following properties. The padding element will provide space between the top of the border and the element, margin will provide space around the elment, and the element will be positioned to the right of th h1 element within the header, as well as take on the below font properties. */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -33,25 +33,25 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* Do not add list style. Listed items to appear without list item marker.  */
 .header nav ul {
     list-style-type: none;
 }
-
+/* Items to be positioned linear and horizontally listed. */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* Make text in nav section white */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* Style the text in all pargrpahs to be 16 pixels */
 p {
     font-size: 16px;
 }
-
+/* Style the hero to a height of 800 pixels and a width of 100%. Center the background and have it cover the entire container with a margin of 25 pixels from the bottom. */
 .hero {
     height: 800px;
     width: 100%;
@@ -60,23 +60,23 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* Style the images in 1st and 3rd article sections within the main element to the left of their corresponding section. */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* Set the image of the 2nd article section within the main element to the right.*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/*Set the elemtent to be inline-block with a width of 75 percent and 20 pixel margin from the left.*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-/* Start of Main content Section*/
+/* Style each article in the main content section to be white with a light blue background and to have a margin from the bottom of 20 pixels, padding of 50 pixels, a height of 300 pixels with the following font property*/
 .content-group {
     margin-bottom: 20px;
     padding: 50px;
@@ -85,17 +85,17 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*Style each img within each article within the main section to a max height of 200 pixels. */
 .content-group img {
     max-height: 200px;
 }
-
+/*Style each h2 element within each article within the main section to a font size of 36 pixels with a margin from the bottom of 20 pixels. */
 .content-group h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/* Start of Aside Benefits Section*/
+/* Style the aside section to have a margin of 20 pixels from the right to be pushed down below both right and left floating elements. Text should be positioned to the right of the main content on webpage with a width and height of 20 and 100% respectively with the following font properties*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -106,30 +106,30 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* Style this element to be white and have a margin from the bottom of 32 pixels. This class will be referenced in all three aside section articles */
 .benefit-group  {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* Set text to center and add a bottom margin of 10 px. This This class will be referenced in all three h3 elements within the articles of the aside section. */
 .benefit-group h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* Set images to block display with top and bottom margins of 10 pixels. Center the image and include a max width of 150 pixels. This class will be referenced in all three sourced images within the articles of the aside section*/
 .benefit-group img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* Style the footer element to have text centered with a padding of 30 pixels and push text below both left and right floating elements.  */
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* Make content in footer h2 20 pixels */
 .footer h2 {
     font-size: 20px;
 }
