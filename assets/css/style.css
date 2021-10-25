@@ -129,7 +129,7 @@ footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-/* Make content in footer h2 20 pixels */
-.footer h2 {
+/* Make content in footer h4 20 pixels */
+.footer h4 {
     font-size: 20px;
 }
